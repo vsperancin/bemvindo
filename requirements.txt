@@ -1,0 +1,4 @@
+# VinIA Cinema - servidor
+# Sem deps externas (usa só stdlib), este arquivo é só metadata
+# pip install -r requirements.txt
+# python3 server.py

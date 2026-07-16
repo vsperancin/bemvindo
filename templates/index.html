@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo, Vinicius! — VinIA Cinema</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- TELA DE CINEMA: cortinas -->
+    <div class="curtain curtain-left" id="curtainLeft"></div>
+    <div class="curtain curtain-right" id="curtainRight"></div>
+
+    <!-- TELA DE PROJEÇÃO -->
+    <div class="screen" id="screen">
+        <div class="spotlight"></div>
+
+        <!-- Cadeiras do cinema (ambiente) -->
+        <div class="theater-row" aria-hidden="true">
+            <div class="seat"></div><div class="seat"></div><div class="seat"></div>
+            <div class="seat"></div><div class="seat"></div><div class="seat"></div>
+            <div class="seat"></div><div class="seat"></div>
+        </div>
+
+        <!-- Conteúdo principal -->
+        <div class="stage" id="stage">
+            <h1 class="title" id="title">Bem-vindo</h1>
+            <h2 class="name" id="name">Vinicius</h2>
+            <p class="subtitle" id="subtitle">— uma estreia no seu servidor —</p>
+        </div>
+
+        <!-- Botão de replay -->
+        <button class="replay" id="replay" aria-label="Replay">▶ Replay</button>
+    </div>
+
+    <!-- Pipoquinhas (estrelinhas de cinema) -->
+    <div class="popcorn" id="popcorn" aria-hidden="true"></div>
+
+    <footer class="foot">
+        <span>VINIA · Coolify · Hermes Agent</span>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

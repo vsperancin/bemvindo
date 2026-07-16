@@ -1,0 +1,21 @@
+# nao copiar .git / logs / cache / IDE / venv
+.git
+.gitignore
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.err
+
+# nao copiar arquivos locais
+.env
+.DS_Store
+.vscode
+.idea
+
+# nao copiar o proprio dockerignore
+.dockerignore
+Dockerfile.bak
